@@ -1,0 +1,12 @@
+clear all; clf
+z = 8 + j*3
+v= 9 - j*2
+
+a = real(z) + imag(v)
+b = abs(z+conj(v))
+c = abs(z*v)
+d = angle(z) + angle(v)
+
+d1 = d * 180/pi
+e = abs(v/z)
+f = log(j*imag(z+v))
